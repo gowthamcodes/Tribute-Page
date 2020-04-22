@@ -1,0 +1,100 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+div {
+	background-color: #eee;
+    margin: 2em 1em;
+    padding: .5em 0;
+}
+
+h1, h2 {
+	color: #333;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#main > p {
+    margin-top: 1.5em;
+}
+
+.img-container {
+    background-color: #fff;
+    margin: 16px;
+
+}
+
+.img-container > p {
+    font-size: .9em;
+}
+
+.responsive-img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 1.5em auto 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 0;
+    margin-bottom: 0px;
+    /* height: 37%;  */
+}
+
+.container p {
+    font-size: .8em;
+    color: #333;
+}
+
+.container > div:nth-of-type(n) {
+    background-color: #fff;
+}
+
+.detail {
+    margin: 16px;
+}
+
+.container h5 {
+    font-size: 1em;
+}
+
+.detail > h2 {
+    margin-top: 1em;
+}
+
+.timeline h1 {
+    margin: 0
+}
+
+.timeline {
+    margin: 0 auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.timeline > ul {
+    text-align: left;
+}
+
+.quote h3 {
+    font-family: 'Squada One', cursive;
+    font-size: 1.5em;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: powderblue;
+}
